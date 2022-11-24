@@ -1,0 +1,724 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+.header-navigation {
+  width: 1370px;
+  margin: auto;
+  height: 85px;
+  width: 1356px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-family: 'Lato'; }
+  .header-navigation-menu {
+    width: 557px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 284px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; }
+    .header-navigation-menu a {
+      text-decoration: none;
+      color: inherit; }
+    .header-navigation-menu-item {
+      position: relative;
+      left: 2px; }
+  .header-navigation img {
+    height: 23.5px;
+    width: 81px;
+    margin-right: 171px; }
+  .header-navigation-buttons {
+    position: relative; }
+    .header-navigation-buttons-sign {
+      box-sizing: border-box;
+      padding: 0%;
+      margin-right: 20px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      background: none;
+      border: none; }
+    .header-navigation-buttons-start {
+      position: absolute;
+      top: -13px;
+      left: 94px;
+      box-sizing: border-box;
+      height: 51px;
+      width: 183px;
+      border-radius: 4px;
+      font-family: 'Lato';
+      background: #01996D;
+      color: white;
+      border: none;
+      font-size: 20px;
+      line-height: 25px; }
+    .header-navigation-buttons-start:hover {
+      cursor: pointer;
+      background: #03684b;
+      transition: all 2s ease 0s; }
+.header-content {
+  box-sizing: border-box;
+  height: 900px;
+  width: 1920px;
+  margin: auto;
+  margin-bottom: 165px;
+  box-sizing: border-box;
+  background-image: url(../img/header-bg.png);
+  border-top: 0.3px solid #ecebeb;
+  background-size: 100%; }
+  .header-content-text {
+    padding-top: 175px;
+    width: 1370px;
+    margin: auto; }
+    .header-content-text-title {
+      width: 440px;
+      height: 148px;
+      box-sizing: border-box;
+      margin-bottom: 31px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 74px;
+      color: #01996D; }
+    .header-content-text-subtitle {
+      box-sizing: border-box;
+      width: 420px;
+      height: 123px;
+      margin-bottom: 17px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 29px;
+      color: #484848; }
+    .header-content-text-button {
+      position: relative;
+      box-sizing: border-box;
+      height: 65px;
+      width: 227px;
+      border-radius: 4px;
+      font-family: 'Lato';
+      background: #01996D;
+      color: white;
+      border: none;
+      font-size: 20px;
+      line-height: 25px; }
+    .header-content-text-button:hover {
+      cursor: pointer;
+      background: #03684b;
+      transition: all 2s ease 0s; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+.about {
+  width: 1428px;
+  margin: auto; }
+  .about h3 {
+    margin-left: 38px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242; }
+  .about-main {
+    display: flex;
+    justify-content: space-between; }
+    .about-main h2 {
+      width: 584px;
+      height: 79px;
+      margin-left: 38px;
+      font-family: Georgia;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 73px;
+      letter-spacing: 0em;
+      color: #01996D; }
+    .about-main p {
+      margin-top: 20px;
+      margin-bottom: 67px;
+      padding-left: 3px;
+      width: 671px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%; }
+  .about-cards {
+    padding-left: 37px;
+    display: flex; }
+    .about-cards-personalize {
+      overflow: hidden;
+      position: relative;
+      width: 390px;
+      margin-right: 95px; }
+      .about-cards-personalize p {
+        margin-bottom: 60px;
+        height: 150px;
+        width: 382px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242; }
+      .about-cards-personalize-img {
+        width: 100%; }
+      .about-cards-personalize-number {
+        margin-bottom: 10px;
+        position: relative;
+        height: 225px;
+        width: 390px; }
+        .about-cards-personalize-number h2 {
+          font-family: 'Georgia';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 150px;
+          line-height: 150%;
+          color: rgba(1, 153, 109, 0.2); }
+        .about-cards-personalize-number p {
+          position: absolute;
+          z-index: 1;
+          top: 135px;
+          left: 89px;
+          font-family: 'Georgia';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 150%;
+          color: black; }
+      .about-cards-personalize-laptop {
+        position: absolute;
+        z-index: 2;
+        top: 670px;
+        left: 205px;
+        height: 144px;
+        width: 185px;
+        border-radius: 1px; }
+    .about-cards-write {
+      width: 390px;
+      margin: 287px 103px 48px 0px; }
+      .about-cards-write p {
+        margin-bottom: 60px;
+        height: 150px;
+        width: 382px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242; }
+      .about-cards-write-img {
+        width: 100%; }
+      .about-cards-write-number {
+        margin-bottom: 10px;
+        position: relative;
+        height: 225px;
+        width: 390px; }
+        .about-cards-write-number h2 {
+          font-family: 'Georgia';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 150px;
+          line-height: 150%;
+          color: rgba(1, 153, 109, 0.2); }
+        .about-cards-write-number p {
+          position: absolute;
+          z-index: 1;
+          top: 135px;
+          left: 89px;
+          font-family: 'Georgia';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 150%;
+          color: black; }
+      .about-cards-write-number p {
+        left: 80px; }
+      .about-cards-write p {
+        width: 400px;
+        height: 90px;
+        margin-bottom: 37px; }
+    .about-cards-alivio {
+      width: 390px;
+      margin-top: 56px; }
+      .about-cards-alivio p {
+        margin-bottom: 60px;
+        height: 150px;
+        width: 382px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242; }
+      .about-cards-alivio-img {
+        width: 100%; }
+      .about-cards-alivio-number {
+        margin-bottom: 10px;
+        position: relative;
+        height: 225px;
+        width: 390px; }
+        .about-cards-alivio-number h2 {
+          font-family: 'Georgia';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 150px;
+          line-height: 150%;
+          color: rgba(1, 153, 109, 0.2); }
+        .about-cards-alivio-number p {
+          position: absolute;
+          z-index: 1;
+          top: 135px;
+          left: 89px;
+          font-family: 'Georgia';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 150%;
+          color: black; }
+      .about-cards-alivio-number {
+        margin-bottom: 0; }
+        .about-cards-alivio-number h2 {
+          position: relative;
+          left: 2px;
+          bottom: 2px; }
+        .about-cards-alivio-number p {
+          left: 126px;
+          top: 133px; }
+      .about-cards-alivio-info {
+        height: 90px;
+        margin-bottom: 47px;
+        position: relative;
+        right: 5px;
+        bottom: 1px; }
+      .about-cards-alivio img {
+        border-radius: 12px; }
+      .about-cards-alivio p {
+        width: 420px;
+        height: fit-content;
+        margin-bottom: 0px;
+        padding: 0px; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+.story {
+  background: #245852;
+  width: 100vw;
+  margin-bottom: 120px; }
+  .story-container {
+    margin: auto;
+    width: 1506px;
+    height: 922px;
+    display: flex;
+    background: #245852;
+    color: white; }
+    .story-container h2 {
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 157%; }
+    .story-container h2:first-child {
+      margin-top: 311px;
+      margin-bottom: 1px; }
+    .story-container-title {
+      margin-bottom: 32px;
+      position: relative; }
+    .story-container p {
+      margin-bottom: 57px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 157%; }
+    .story-container button {
+      position: relative;
+      box-sizing: border-box;
+      height: 65px;
+      width: 227px;
+      border-radius: 4px;
+      font-family: 'Lato';
+      background: #01996D;
+      color: white;
+      border: none;
+      font-size: 20px;
+      line-height: 25px;
+      width: 240px; }
+    .story-container button:hover {
+      cursor: pointer;
+      background: #03684b;
+      transition: all 2s ease 0s; }
+    .story-container img {
+      position: relative;
+      left: 62px;
+      margin-top: 229px;
+      height: 516px;
+      width: 895.8433837890625px;
+      border-radius: 20px; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+.product {
+  display: flex;
+  width: 1428px;
+  margin: auto;
+  margin-bottom: 239px;
+  padding-left: 37px; }
+  .product-content {
+    margin-left: 86px; }
+    .product-content h3 {
+      margin-bottom: 11px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 157%;
+      color: #424242; }
+    .product-content h2 {
+      margin-bottom: 1px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 157%;
+      color: #01996D; }
+    .product-content p {
+      width: 530px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 29px;
+      color: #484848; }
+    .product-content-subtitle {
+      margin-top: 20px; }
+    .product-content button {
+      margin-top: 33px;
+      position: relative;
+      box-sizing: border-box;
+      height: 65px;
+      width: 227px;
+      border-radius: 4px;
+      font-family: 'Lato';
+      background: #01996D;
+      color: white;
+      border: none;
+      font-size: 20px;
+      line-height: 25px; }
+    .product-content button:hover {
+      cursor: pointer;
+      background: #03684b;
+      transition: all 2s ease 0s; }
+  .product-images {
+    position: relative;
+    margin-left: 79px; }
+    .product-images-card {
+      position: absolute;
+      top: 339px;
+      left: -79px; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+.footer {
+  box-sizing: border-box;
+  width: 1920px;
+  height: 654px;
+  padding-top: 94px;
+  padding-left: 275px;
+  background: #245852; }
+  .footer h2 {
+    margin-bottom: 61px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF; }
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; }
+    .footer-menu li {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 30px;
+      color: white; }
+      .footer-menu li a {
+        text-decoration: none;
+        color: inherit; }
+
+/*# sourceMappingURL=style.css.map */

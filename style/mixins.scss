@@ -1,0 +1,66 @@
+@import "fonts.scss";
+
+@mixin button {
+    position: relative;
+    box-sizing: border-box;
+    height: 65px;
+    width: 227px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    background: #01996D;
+    color: white;
+    border: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+@mixin card {
+    width: 390px;
+
+    p {
+        margin-bottom: 60px;
+        height: 150px;
+        width: 382px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242;
+
+    }
+
+    &-img {
+        width: 100%;
+    }
+
+    &-number {
+        margin-bottom: 10px;
+        position: relative;
+        height: 225px;
+        width: 390px;
+
+        h2 {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 150px;
+            line-height: 150%;
+            color: rgba(1, 153, 109, 0.2);
+        }
+
+        p {
+            position: absolute;
+            z-index: 1;
+            top: 135px;
+            left: 89px;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 150%;
+            color: black;
+        }
+    }
+
+}

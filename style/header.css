@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato-Semibold.ttf);
+  font-weight: 600; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia\ bold.ttf);
+  font-weight: 700; }
+@font-face {
+  font-family: 'Georgia';
+  src: url(../fonts/georgia.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Black.otf);
+  font-weight: 900; }
+.header-navigation {
+  width: 1370px;
+  margin: auto;
+  height: 85px;
+  width: 1356px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-family: 'Lato'; }
+  .header-navigation-menu {
+    width: 557px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 284px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; }
+    .header-navigation-menu a {
+      text-decoration: none;
+      color: inherit; }
+    .header-navigation-menu-item {
+      position: relative;
+      left: 2px; }
+  .header-navigation img {
+    height: 23.5px;
+    width: 81px;
+    margin-right: 171px; }
+  .header-navigation-buttons {
+    position: relative; }
+    .header-navigation-buttons-sign {
+      box-sizing: border-box;
+      padding: 0%;
+      margin-right: 20px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      background: none;
+      border: none; }
+    .header-navigation-buttons-start {
+      position: absolute;
+      top: -13px;
+      left: 94px;
+      box-sizing: border-box;
+      height: 51px;
+      width: 183px;
+      border-radius: 4px;
+      font-family: 'Lato';
+      background: #01996D;
+      color: white;
+      border: none;
+      font-size: 20px;
+      line-height: 25px; }
+    .header-navigation-buttons-start:hover {
+      cursor: pointer;
+      background: #03684b;
+      transition: all 2s ease 0s; }
+.header-content {
+  box-sizing: border-box;
+  height: 900px;
+  width: 1920px;
+  margin: auto;
+  margin-bottom: 165px;
+  box-sizing: border-box;
+  background-image: url(../img/header-bg.png);
+  border-top: 0.3px solid #ecebeb;
+  background-size: 100%; }
+  .header-content-text {
+    padding-top: 175px;
+    width: 1370px;
+    margin: auto; }
+    .header-content-text-title {
+      width: 440px;
+      height: 148px;
+      box-sizing: border-box;
+      margin-bottom: 31px;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 74px;
+      color: #01996D; }
+    .header-content-text-subtitle {
+      box-sizing: border-box;
+      width: 420px;
+      height: 123px;
+      margin-bottom: 17px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 29px;
+      color: #484848; }
+    .header-content-text-button {
+      position: relative;
+      box-sizing: border-box;
+      height: 65px;
+      width: 227px;
+      border-radius: 4px;
+      font-family: 'Lato';
+      background: #01996D;
+      color: white;
+      border: none;
+      font-size: 20px;
+      line-height: 25px; }
+    .header-content-text-button:hover {
+      cursor: pointer;
+      background: #03684b;
+      transition: all 2s ease 0s; }
+
+/*# sourceMappingURL=header.css.map */

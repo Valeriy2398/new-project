@@ -1,0 +1,125 @@
+@import "./fonts.scss";
+@import "./mixins.scss";
+
+.about {
+    width: 1428px;
+    margin: auto;
+
+    h3 {
+        margin-left: 38px;
+        font-family: 'Lato';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 157%;
+        color: #424242;
+    }
+
+    &-main {
+        display: flex;
+        justify-content: space-between;
+
+
+        h2 {
+            width: 584px;
+            height: 79px;
+            margin-left: 38px;
+            font-family: Georgia;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 73px;
+            letter-spacing: 0em;
+            color: #01996D;
+
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 67px;
+            padding-left: 3px;
+            width: 671px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+        }
+    }
+
+    &-cards {
+        padding-left: 37px;
+        display: flex;
+
+        &-personalize {
+            overflow: hidden;
+            position: relative;
+            @include card();
+            margin-right: 95px;
+
+            &-laptop {
+                position: absolute;
+                z-index: 2;
+                top: 670px;
+                left: 205px;
+                height: 144px;
+                width: 185px;
+                border-radius: 1px
+            }
+        }
+
+        &-write {
+            @include card();
+            margin: 287px 103px 48px 0px;
+
+            &-number {
+                p {
+                    left: 80px;
+                }
+            }
+
+            p {
+                width: 400px;
+                height: 90px;
+                margin-bottom: 37px;
+            }
+        }
+
+        &-alivio {
+            @include card();
+            margin-top: 56px;
+
+            &-number {
+                margin-bottom: 0;
+
+                h2 {
+                    position: relative;
+                    left: 2px;
+                    bottom: 2px;
+                }
+
+                p {
+                    left: 126px;
+                    top: 133px;
+                }
+            }
+
+            &-info {
+                height: 90px;
+                margin-bottom: 47px;
+                position: relative;
+                right: 5px;
+                bottom: 1px;
+            }
+
+            img {
+                border-radius: 12px;
+            }
+
+            p {
+                width: 420px;
+                height: fit-content;
+                margin-bottom: 0px;
+                padding: 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+@import "./fonts.scss";
+@import "./mixins.scss";
+
+.story {
+    background: #245852;
+    width: 100vw;
+    margin-bottom: 120px;
+
+    &-container {
+        margin: auto;
+        width: 1506px;
+        height: 922px;
+        display: flex;
+        background: #245852;
+        color: white;
+
+        h2 {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 157%;
+        }
+
+        h2:first-child {
+            margin-top: 311px;
+            margin-bottom: 1px;
+        }
+
+        &-title {
+            margin-bottom: 32px;
+            position: relative;
+        }
+
+        p {
+            margin-bottom: 57px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 157%;
+        }
+
+        button {
+            @include button();
+            width: 240px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background: #03684b;
+            transition: all 2s ease 0s;
+
+        }
+
+        img {
+            position: relative;
+            left: 62px;
+            margin-top: 229px;
+
+            height: 516px;
+            width: 895.8433837890625px;
+            border-radius: 20px;
+        }
+    }
+}

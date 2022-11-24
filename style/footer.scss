@@ -1,0 +1,42 @@
+@import "./fonts.scss";
+@import "./mixins.scss";
+
+.footer {
+    box-sizing: border-box;
+    width: 1920px;
+    height: 654px;
+    padding-top: 94px;
+    padding-left: 275px;
+    background: #245852;
+
+    h2 {
+        margin-bottom: 61px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 55px;
+        color: #FFFFFF;
+    }
+
+    &-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+
+        li {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px;
+            color: white;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}
